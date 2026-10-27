@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global benefits administration software market is valued at approximately **$1.5 billion to $2.2 billion**, compounding at a CAGR of 10% to 13% driven by ACA/statutory compliance complexity, digital open enrollment, and AI-assisted plan decision tools. The sector is **moderately fragmented** rather than a winner-take-all monopoly—large enterprise HCM conglomerates (like ADP and Workday) compete alongside specialized mid-market benefits platforms (bswift, PlanSource, Businessolver) and modern SMB/mid-market HR tech unicorns (Rippling, Gusto), with frequent private equity consolidations across point-solution vendors.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Workday Benefits](https://www.workday.com/)**
-
-  **Enterprise benefits administration** integrated with Workday HCM. **Pricing**: Quote-only; licensed as part of Workday's broader HCM suite. **Free tier**: None. **Best for**: large enterprises already on Workday seeking unified benefits, payroll, and employee data management.
-
-
-
-- **[Benefitfocus](https://www.benefitfocus.com/)**
-
-  **End-to-end benefits administration platform** (Benefitplace™) with enrollment, eligibility, mobile app, ACA compliance, COBRA, and carrier billing. **Pricing**: Quote-only; enterprise-focused with custom contracts. **Free tier**: None. **Best for**: organizations wanting a dedicated benefits platform with high-touch service and customization, including complex spousal surcharges and multi-acquisition scenarios .
-
-
-
-- **[bswift](https://www.bswift.com/)**
-
-  **Benefits administration and HR services platform** with AI-powered decision support (Emma™), dependent verification, COBRA, billing suite, and ACA reporting. **Pricing**: Quote-only; tiered by services and lives covered. **Free tier**: None. **Best for**: employers wanting a blend of self-service technology and human-backed administrative support, with 98% client retention reported .
-
-
-
-- **[PlanSource](https://plansource.com/)**
-
-  **Unified benefits administration platform** with ACA, COBRA, carrier billing, consumer health accounts, and AI-powered dependent verification. **Pricing**: Quote-only; enterprise and mid-market tiers available. **Free tier**: None. **Best for**: HR teams wanting one platform and one accountable partner for core benefits administration plus extended compliance services .
-
-
-
-- **[ADP Workforce Now](https://www.adp.com/)**
-
-  **Comprehensive HR and payroll platform** with integrated benefits administration. **Pricing**: Quote-only; bundled with ADP payroll and HR modules. **Free tier**: None. **Best for**: organizations already using ADP payroll wanting unified benefits enrollment and employee data management.
-
-
-
-- **[Rippling](https://www.rippling.com/)**
-
-  **Modern HR, IT, and finance platform** with integrated Benefits Administration. Automatically syncs benefits with payroll to apply deductions when life events occur, and manages plan selection, broker partners, and HRIS in one place . **Pricing**: Quote-only; per-user modular pricing. **Free tier**: None. **Best for**: growing companies wanting benefits tightly integrated with payroll, device management, and app provisioning in a single system.
-
-
-
-- **[Zenefits](https://www.zenefits.com/)** (TriNet)
-
-  **All-in-one HR software** with benefits administration, payroll, onboarding, and time tracking. Benefits sync automatically with payroll to reduce manual data entry . **Pricing**: Tiered plans available; historically accessible for SMBs. **Free tier**: Historically offered limited free tier. **Best for**: small to midsize businesses wanting streamlined benefits enrollment alongside core HR administration.
-
-
-
-- **[Gusto](https://gusto.com/)**
-
-  **SMB-focused payroll and HR platform** with integrated benefits administration. **Pricing**: Transparent tiered pricing; benefits administration included in higher tiers. **Free tier**: None; free trial available. **Best for**: small businesses wanting simple, bundled payroll and benefits without enterprise complexity.
-
-
-
-- **[Sequoia One](https://www.sequoia.com/)**
-
-  **HR-aligned PEO** that handles benefits administration, payroll, compliance, and HR operations for lean HR teams. Includes a unified platform, dedicated support, and a mobile app . **Pricing**: Quote-only; PEO model with per-employee pricing. **Free tier**: None. **Best for**: startups and growing companies wanting to outsource benefits administration and compliance to a full-service PEO.
-
-
-
-- **[Businessolver](https://businessolver.com/)**
-
-  **SaaS-based HR and benefits administration technology** (Benefitsolver®) with AI assistant Sofia, personalized enrollment guidance, and decision support. **Pricing**: Quote-only; enterprise-focused. **Free tier**: None. **Best for**: employers wanting a high-engagement enrollment experience with AI-driven decision support and strong employee satisfaction metrics .
-
-
+| Platform | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ADP Workforce Now](https://www.adp.com/)** | **~$119.3B Market Cap** ($20.6B FY25 Revenue) | ~$23.00/employee/mo (Select tier; benefits modules start in Plus tier at ~$30/employee/mo + base platform fee) | No free tier or trial; custom product sandbox available via sales | Enterprise & mid-market HR, payroll, unified open enrollment, and ACA/compliance reporting. |
+| **[Workday Benefits](https://www.workday.com/)** | **~$52B Market Cap** ($10.15B TTM Revenue) | ~$34.00 to $42.00/employee/mo (Core HCM subscription; typically $100K+ min. annual contract commitment) | No free tier or trial; guided custom enterprise demo only | Full HCM & enterprise benefits administration with global payroll, deep carrier integrations, and lifecycle tracking. |
+| **[Rippling](https://www.rippling.com/)** | **$16.8B Valuation** ($1B+ ARR) | $8.00/employee/mo (Unity platform base) + $35.00/mo base account fee; benefits administration module add-on starts at ~$5.00/employee/mo | No free tier; 14-day guided sandbox access upon sales qualification | Modular all-in-one HRIS, payroll, automated benefits deductions on life events, device management, and broker sync. |
+| **[Gusto](https://gusto.com/)** | **$9.3B Valuation** ($1B+ TTM Revenue) | $49.00/mo base fee + $6.00/employee/mo (Simple tier; full health benefits administration unlocked in Plus tier at $80/mo + $12/person/mo) | Unlimited free account setup ($0 until first live payroll run); promotional 30-day add-on feature trials | SMB-focused automated payroll, health benefits enrollment, 401(k), FSA/HSA, and worker compensation sync. |
+| **[bswift](https://www.bswift.com/)** | **$740M Valuation** (Acquired for $740M; ~$180M Revenue) | ~$8.00/employee/mo (Base benefits administration tier; custom quoting by population and lives covered) | No free tier or self-service trial; sales demonstration available | End-to-end benefits platform with Emma™ AI decision support, dependent verification, billing reconciliation, and COBRA. |
+| **[Benefitfocus](https://www.benefitfocus.com/)** | **$570M Valuation** (Acquired by Voya for $570M; ~$263M Revenue) | ~$2.00/employee/mo (Baseline BenefitsPlace entry fee; full enterprise scope quote-based) | No free tier or trial; scheduled pilot demo available for qualified employers | Dedicated enterprise benefits exchange, complex spousal surcharge rules, multi-carrier billing, and ACA administration. |
+| **[PlanSource](https://plansource.com/)** | **~$400M Valuation** (~$155M Revenue; Vista Equity-backed) | ~$3.75 to $5.00/employee/mo (Base platform tier; subject to volume discounting and setup fees) | No free tier or public trial; interactive demo sandbox on request | Unified benefits platform with AI dependent verification, ACA/COBRA management, and direct carrier connections. |
+| **[Businessolver](https://businessolver.com/)** | **~$350M Valuation** (~$285M Revenue; Stone Point Capital-backed) | ~$10.00/employee/mo (Benefitsolver baseline; scales up to $25–$50/PEPM for full suite and service advocacy) | No free tier or trial; personalized guided enterprise demo only | High-touch SaaS benefits tech featuring Sofia AI decision assistant, enrollment navigation, and consumer health accounts. |
+| **[Sequoia One](https://www.sequoia.com/)** | **~$250M Valuation** (~$200M Revenue; Private Tech PEO) | ~$150.00 to $200.00/employee/mo (PEO model covering HR, Fortune 500-grade benefits, payroll, and 401k) | No free tier or trial; custom census review and consultation required | Co-employment PEO tailored for venture-backed startups needing top-tier group health benefits and full compliance. |
+| **[Zenefits](https://www.zenefits.com/)** (TriNet) | **~$100M Valuation** (Acquired by TriNet; ~$100M Historical ARR) | $8.00/employee/mo (Essentials tier billed annually; 5-employee minimum requirement of $40/mo) | No free tier or trial; guided demo available via sales consultation | SMB HR and benefits management, automated payroll deductions, employee onboarding, and broker integration. |
 
 ## Open-Source GitHub Projects
 
