@@ -65,47 +65,47 @@ The global benefits administration software market is valued at approximately **
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source projects, payroll-integrated benefit modules, social protection schemes, and healthcare data interchange tools—sorted by GitHub star count in descending order.
+Curated open-source projects, payroll-integrated benefit modules, social protection schemes, and healthcare data interchange tools—sorted by GitHub Stars_Count in descending order.
 
 ### ⭐ Featured HR & Benefits Suites
 
-- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) 📦
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) 📦
   - **Overview**: Full-suite ERP system (LGPL-3.0) with comprehensive HR and payroll modules.
   - **Benefits Capabilities**: Manages salary allowances, medical allowances, company perks, and insurance components tied directly into employee contracts and payroll runs.
   - **Tech Stack**: Python, JavaScript, PostgreSQL.
   - **Best For**: Businesses requiring deep ERP-backed HR and contract-level benefits tracking.
 
-- **[Frappe HR](https://github.com/frappe/hrms)** [![GitHub stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) 🌟
+- **[Frappe HR](https://github.com/frappe/hrms)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) 🌟
   - **Overview**: Modern open-source HR and payroll suite (GPL-3.0) featuring dedicated **Flexible Benefits** and **Employee Benefit Claim** modules.
   - **Benefits Capabilities**: Configurable flexible benefit plans (health insurance, tuition reimbursement, medical allowances), Employee Benefit Application workflows for annual self-service selection, Benefit Ledger balance tracking, and reimbursement claim approval loops.
   - **Tech Stack**: Python (Frappe Framework), Vue.js (Frappe UI), MariaDB.
   - **Best For**: Organizations wanting native flexible benefits and reimbursement workflows integrated with payroll.
 
-- **[GLPI](https://github.com/glpi-project/glpi)** [![GitHub stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) 📑
+- **[GLPI](https://github.com/glpi-project/glpi)** [![GitHub_Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) 📑
   - **Overview**: Complete open-source service desk and resource management platform (GPL-3.0).
   - **Benefits Capabilities**: Used by internal HR and IT teams to orchestrate employee equipment benefits, fringe benefit requests, remote stipend tracking, and ticketed service allowances.
   - **Tech Stack**: PHP, MySQL.
   - **Best For**: Enterprise operational management of non-monetary fringe benefits and perks.
 
-- **[Horilla HRMS](https://github.com/horilla-opensource/horilla)** [![GitHub stars](https://img.shields.io/github/stars/horilla-opensource/horilla?style=social&color=white)](https://github.com/horilla-opensource/horilla/stargazers) ⚡
+- **[Horilla HRMS](https://github.com/horilla-opensource/horilla)** [![GitHub_Stars](https://img.shields.io/github/stars/horilla-opensource/horilla?style=social&color=white)](https://github.com/horilla-opensource/horilla/stargazers) ⚡
   - **Overview**: Free and open-source Human Resource Management System (LGPL-3.0) built on Python/Django.
   - **Benefits Capabilities**: Includes dedicated salary allowance components, compensation planning, dynamic payslip generation, and customizable employee benefit deductions.
   - **Tech Stack**: Python, Django, HTML5, JavaScript.
   - **Best For**: Tech-forward HR teams seeking a clean, extensible Python codebase for compensation and benefits.
 
-- **[OrangeHRM Community](https://github.com/orangehrm/orangehrm)** [![GitHub stars](https://img.shields.io/github/stars/orangehrm/orangehrm?style=social&color=white)](https://github.com/orangehrm/orangehrm/stargazers) 🍊
+- **[OrangeHRM Community](https://github.com/orangehrm/orangehrm)** [![GitHub_Stars](https://img.shields.io/github/stars/orangehrm/orangehrm?style=social&color=white)](https://github.com/orangehrm/orangehrm/stargazers) 🍊
   - **Overview**: Long-standing modular open-source HR management system (GPL-3.0).
   - **Benefits Capabilities**: Core benefits module allows defining health and medical coverage plans, assigning policies to employees, and tracking historical employee coverage tiers.
   - **Tech Stack**: PHP, Symfony, MySQL.
   - **Best For**: Small-to-midsize organizations needing foundational benefits recordkeeping alongside leave and time tracking.
 
-- **[IceHrm](https://github.com/gamonoid/icehrm)** [![GitHub stars](https://img.shields.io/github/stars/gamonoid/icehrm?style=social&color=white)](https://github.com/gamonoid/icehrm/stargazers) 🧊
+- **[IceHrm](https://github.com/gamonoid/icehrm)** [![GitHub_Stars](https://img.shields.io/github/stars/gamonoid/icehrm?style=social&color=white)](https://github.com/gamonoid/icehrm/stargazers) 🧊
   - **Overview**: Modular open-source HR management tool for distributed teams (Apache-2.0).
   - **Benefits Capabilities**: Track employee perks, expense claims, reimbursement workflows, and insurance policy assignments with a lightweight self-service interface.
   - **Tech Stack**: PHP, JavaScript, Bootstrap.
   - **Best For**: Startups and SMBs looking for lightweight, straightforward employee perk and claim recording.
 
-- **[Sentrifugo](https://github.com/sentrifugo/sentrifugo)** [![GitHub stars](https://img.shields.io/github/stars/sentrifugo/sentrifugo?style=social&color=white)](https://github.com/sentrifugo/sentrifugo/stargazers) 📋
+- **[Sentrifugo](https://github.com/sentrifugo/sentrifugo)** [![GitHub_Stars](https://img.shields.io/github/stars/sentrifugo/sentrifugo?style=social&color=white)](https://github.com/sentrifugo/sentrifugo/stargazers) 📋
   - **Overview**: Open-source HRMS (GPL-3.0) with extensible employee management fields.
   - **Benefits Capabilities**: Tracks employee benefit designations, dependent allocations, and emergency contact benefits data.
   - **Tech Stack**: PHP, Zend Framework, MySQL.
@@ -113,19 +113,19 @@ Curated open-source projects, payroll-integrated benefit modules, social protect
 
 ### 🏛️ Public & Social Benefits Frameworks
 
-- **[openIMIS](https://github.com/openimis/openimis-dist_dkr)** [![GitHub stars](https://img.shields.io/github/stars/openimis/openimis-dist_dkr?style=social&color=white)](https://github.com/openimis/openimis-dist_dkr/stargazers) 🏥
+- **[openIMIS](https://github.com/openimis/openimis-dist_dkr)** [![GitHub_Stars](https://img.shields.io/github/stars/openimis/openimis-dist_dkr?style=social&color=white)](https://github.com/openimis/openimis-dist_dkr/stargazers) 🏥
   - **Overview**: Digital Public Good for health financing and social protection schemes (AGPL-3.0).
   - **Benefits Capabilities**: Complete administration of public health insurance programs, beneficiary registries, healthcare claim processing, and HL7 FHIR-compliant health coverage APIs.
   - **Tech Stack**: Python (Django REST Framework), React, Docker.
   - **Best For**: Public health bodies, NGOs, and governments administering social health insurance and welfare payments.
 
-- **[BenefitAssist](https://github.com/CMSgov/BenefitAssist)** [![GitHub stars](https://img.shields.io/github/stars/CMSgov/BenefitAssist?style=social&color=white)](https://github.com/CMSgov/BenefitAssist/stargazers) 🛡️
+- **[BenefitAssist](https://github.com/CMSgov/BenefitAssist)** [![GitHub_Stars](https://img.shields.io/github/stars/CMSgov/BenefitAssist?style=social&color=white)](https://github.com/CMSgov/BenefitAssist/stargazers) 🛡️
   - **Overview**: Open-source public benefits screening tool originally developed by Intuit and maintained by the U.S. Centers for Medicare & Medicaid Services (Apache-2.0).
   - **Benefits Capabilities**: Rules-based eligibility engine that prescreens applicants for federal and state assistance programs (Medicaid, SNAP, TANF, LIHEAP).
   - **Tech Stack**: JavaScript, Node.js, Express.
   - **Best For**: Civic tech developers and government agencies building automated benefit screening tools.
 
-- **[Forus](https://github.com/teamforus/Forus)** [![GitHub stars](https://img.shields.io/github/stars/teamforus/Forus?style=social&color=white)](https://github.com/teamforus/Forus/stargazers) 🏙️
+- **[Forus](https://github.com/teamforus/Forus)** [![GitHub_Stars](https://img.shields.io/github/stars/teamforus/Forus?style=social&color=white)](https://github.com/teamforus/Forus/stargazers) 🏙️
   - **Overview**: Multi-tenant open-source SaaS platform for municipal social benefits administration (MIT / AGPL-3.0).
   - **Benefits Capabilities**: Budget allocation, provider network validation, and issuance of social assistance packages via direct payouts, QR code vouchers, and subsidized service credits.
   - **Tech Stack**: PHP (Laravel), Vue.js, Go.
@@ -133,7 +133,7 @@ Curated open-source projects, payroll-integrated benefit modules, social protect
 
 ### 🛠️ EDI 834 & Specialized Benefits Tools
 
-- **[FastChickensHR EDI](https://github.com/FastChickensHR/edi)** [![GitHub stars](https://img.shields.io/github/stars/FastChickensHR/edi?style=social&color=white)](https://github.com/FastChickensHR/edi/stargazers) 🔄
+- **[FastChickensHR EDI](https://github.com/FastChickensHR/edi)** [![GitHub_Stars](https://img.shields.io/github/stars/FastChickensHR/edi?style=social&color=white)](https://github.com/FastChickensHR/edi/stargazers) 🔄
   - **Overview**: Open-source Java library specifically built for HIPAA-compliant **EDI 834 Benefit Enrollment and Maintenance** transactions.
   - **Benefits Capabilities**: Programmatically builds and parses ASC X12N 834 (enrollment, changes, terminations) and 999 implementation acknowledgment files for health insurance carriers.
   - **Tech Stack**: Java, X12 parser architecture.
@@ -147,7 +147,7 @@ Contributions are warmly welcome! Help make this the most comprehensive and tran
 
 1. 🍴 **Fork the repo** to your personal GitHub account.
 2. 🌿 **Create a feature branch** (`git checkout -b add-benefits-tool`).
-3. ✍️ **Add or update entries** in `README.md` keeping formatting consistent (Name, star badge, link, company size/stars, pricing details, and key focus).
+3. ✍️ **Add or update entries** in `README.md` keeping formatting consistent (Name, Stars_Badge, link, company size/stars, pricing details, and key focus).
 4. 🚀 **Submit a Pull Request** with a concise description of your additions.
 
 ---
