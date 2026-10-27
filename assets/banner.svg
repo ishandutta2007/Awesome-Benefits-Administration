@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.6"/>
+    </pattern>
+
+    <!-- Filters for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 52px;
+        letter-spacing: -1px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes pulseOrb {
+        0%, 100% { opacity: 0.25; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.15); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      .orb-1 { animation: pulseOrb 8s ease-in-out infinite; transform-origin: 200px 100px; }
+      .orb-2 { animation: pulseOrb 10s ease-in-out infinite alternate; transform-origin: 1000px 300px; }
+      .floating-card-1 { animation: floatSlow 7s ease-in-out infinite; }
+      .floating-card-2 { animation: floatSlow 9s ease-in-out infinite 1.5s; }
+      .data-stream { stroke-dasharray: 8, 8; animation: dashMove 3s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Animated Glowing Orbs (Behind content) -->
+  <g opacity="0.35">
+    <circle class="orb-1" cx="220" cy="120" r="140" fill="#38bdf8" filter="url(#glow)" />
+    <circle class="orb-2" cx="980" cy="280" r="170" fill="#818cf8" filter="url(#glow)" />
+    <circle cx="620" cy="380" r="120" fill="#c084fc" filter="url(#glow)" opacity="0.2" />
+  </g>
+
+  <!-- Decorative Animated Grid Curves / Connections -->
+  <g fill="none" opacity="0.3">
+    <path class="data-stream" d="M 0 320 C 300 320, 400 180, 700 220 S 1000 140, 1200 160" stroke="#38bdf8" stroke-width="2"/>
+    <path class="data-stream" d="M 0 100 C 350 140, 500 340, 850 300 S 1100 240, 1200 260" stroke="#818cf8" stroke-width="1.5"/>
+  </g>
+
+  <!-- Left Accent Card (Dynamic Floating) -->
+  <g class="floating-card-1" transform="translate(80, 290)" filter="url(#cardShadow)">
+    <rect width="190" height="70" rx="14" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.5" />
+    <circle cx="36" cy="35" r="16" fill="#0284c7" fill-opacity="0.3"/>
+    <path d="M 28 35 L 34 40 L 44 28" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="32" class="badge-text" font-weight="700">ACA &amp; COBRA</text>
+    <text x="64" y="49" class="badge-text" font-size="11" fill="#94a3b8">Automated Rules</text>
+  </g>
+
+  <!-- Right Accent Card (Dynamic Floating) -->
+  <g class="floating-card-2" transform="translate(930, 70)" filter="url(#cardShadow)">
+    <rect width="200" height="70" rx="14" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.5" />
+    <circle cx="36" cy="35" r="16" fill="#7c3aed" fill-opacity="0.3"/>
+    <path d="M 30 42 L 30 34 C 30 30.7 32.7 28 36 28 C 39.3 28 42 30.7 42 34 L 42 42 M 26 42 L 46 42" fill="none" stroke="#c084fc" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="64" y="32" class="badge-text" font-weight="700">EDI 834 / Claims</text>
+    <text x="64" y="49" class="badge-text" font-size="11" fill="#94a3b8">Carrier Ingestion</text>
+  </g>
+
+  <!-- Main Foreground Content Area -->
+  <g transform="translate(600, 165)" text-anchor="middle">
+    <!-- Category Tag -->
+    <rect x="-140" y="-85" width="280" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="0" y="-64" class="badge-text" fill="#38bdf8" letter-spacing="1">CURATED HR TECH RESOURCE</text>
+
+    <!-- Main Title (Gradient Fill, completely in foreground) -->
+    <text x="0" y="-5" class="title-text" fill="url(#primaryGrad)">Awesome Benefits Administration</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="42" class="subtitle-text">Open-Source Frameworks &amp; Enterprise SaaS for Employee Benefits</text>
+
+    <!-- Pill Feature Badges -->
+    <g transform="translate(0, 85)">
+      <!-- Pill 1 -->
+      <g transform="translate(-320, 0)">
+        <rect x="0" y="0" width="145" height="34" rx="17" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+        <text x="72" y="21" class="badge-text" text-anchor="middle">⚡ Enrollment</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(-160, 0)">
+        <rect x="0" y="0" width="145" height="34" rx="17" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+        <text x="72" y="21" class="badge-text" text-anchor="middle">🏥 FSA &amp; HSA</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="150" height="34" rx="17" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+        <text x="75" y="21" class="badge-text" text-anchor="middle">📜 ACA &amp; COBRA</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(165, 0)">
+        <rect x="0" y="0" width="155" height="34" rx="17" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+        <text x="77" y="21" class="badge-text" text-anchor="middle">🚀 Open Source</text>
+      </g>
+    </g>
+  </g>
+</svg>
